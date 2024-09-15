@@ -3,9 +3,5 @@
 @tailwind utilities;
 
 body{
-    @apply lg:text-lg
-}
-
-button{
-    @apply lg:text-2xl
+    font-family: 'Inter', sans-serif;
 }
