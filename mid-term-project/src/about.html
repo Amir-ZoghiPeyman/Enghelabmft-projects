@@ -3,12 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home - Tanz Tech</title>
+    <title>About</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/Logo2.svg" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main CSS -->
     <link href="assets/css/output.css" rel="stylesheet" />
+
+    <!-- Navbar CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css"
       rel="stylesheet"
     />
+
+    <!-- Navbar JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"
       defer
@@ -18,6 +33,7 @@
   <body>
     <div class="container mx-auto">
       <header>
+        <!-- Navbar -->
         <nav
           class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600"
         >
@@ -113,27 +129,32 @@
           </div>
         </nav>
       </header>
-      <div class="mt-40 mb-10">
+
+      <!-- First Section -->
+      <div class="my-40">
         <h2
           class="text-5xl font-bold flex flex-col items-center justify-center p-8 text-center"
         >
-          We help businesses automate, <br />
-          integrate & streamline
+          We help businesses automate,<spam> integrate & streamline</spam>
         </h2>
         <p
           class="flex flex-col items-center justify-center mx-4 lg:mx-10 text-center"
         >
           Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.
-          Aliquam in hendrerit urna. <br />
-          Pellentesque sit amet sapien fringilla, mattis ligula consectetur.
+          Aliquam in hendrerit urna.<span>
+            Pellentesque sit amet sapien fringilla, mattis ligula
+            consectetur.</span
+          >
         </p>
       </div>
+
+      <!-- First Table -->
       <div
-        class="bg-emerald-500 rounded-xl shadow-xl p-4 mb-10 mx-10 lg:mx-32 lg:grid grid-cols-4"
+        class="bg-emerald-500 rounded-2xl shadow-2xl p-4 mb-10 mx-10 lg:mx-32 grid lg:grid-cols-4 gap-4"
       >
-        <div class="mt-24 mb-10">
+        <div class="p-6">
           <h2
-            class="text-5xl font-bold flex flex-col items-center justify-center p-8 text-center"
+            class="text-5xl font-bold flex flex-col items-center justify-center pb-4 text-center"
           >
             250+
           </h2>
@@ -147,9 +168,9 @@
         <div class="lg:hidden">
           <hr class="h-px bg-black border-0 dark:bg-gray-700" />
         </div>
-        <div class="mt-24 mb-10">
+        <div class="p-6">
           <h2
-            class="text-5xl font-bold flex flex-col items-center justify-center p-8 text-center"
+            class="text-5xl font-bold flex flex-col items-center justify-center pb-4 text-center"
           >
             90%
           </h2>
@@ -163,9 +184,9 @@
         <div class="lg:hidden">
           <hr class="h-px bg-black border-0 dark:bg-gray-700" />
         </div>
-        <div class="mt-24 mb-10">
+        <div class="p-6">
           <h2
-            class="text-5xl font-bold flex flex-col items-center justify-center p-8 text-center"
+            class="text-5xl font-bold flex flex-col items-center justify-center pb-4 text-center"
           >
             1.5M+
           </h2>
@@ -179,9 +200,9 @@
         <div class="lg:hidden">
           <hr class="h-px bg-black border-0 dark:bg-gray-700" />
         </div>
-        <div class="mt-24 mb-10">
+        <div class="p-6">
           <h2
-            class="text-5xl font-bold flex flex-col items-center justify-center p-8 text-center"
+            class="text-5xl font-bold flex flex-col items-center justify-center pb-4 text-center"
           >
             20+
           </h2>
@@ -193,33 +214,38 @@
           </p>
         </div>
       </div>
-      <div
-        class="flex flex-col items-center justify-center my-20 shadow-2xl mx-10 lg:mx-32"
-      >
-        <img
-          src="assets/images/pexels-tiger-lily-7109063-min-1536x1024.jpg"
-          class="rounded-2xl shadow-2xl"
-          alt=""
-        />
+
+      <!-- Second Section -->
+      <div class="lg:flex justify-between flex-row-reverse lg:my-52 my-28">
+        <div class="flex flex-col items-center justify-center mx-10 lg:mx-32">
+          <img
+            src="assets/images/pexels-tiger-lily-7109063-min-1536x1024.jpg"
+            class="rounded-2xl shadow-2xl"
+            alt=""
+          />
+        </div>
+
+        <div class="mx-10 lg:mx-32">
+          <h2
+            class="text-5xl font-bold flex flex-col items-center justify-center p-8 text-center"
+          >
+            Our Mission
+          </h2>
+          <p
+            class="flex flex-col items-center justify-center mx-4 lg:mx-10 text-center"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum.
+          </p>
+        </div>
       </div>
-      <div class="my-24 mx-10 lg:mx-32">
-        <h2
-          class="text-5xl font-bold flex flex-col items-center justify-center p-8 text-center"
-        >
-          Our Mission
-        </h2>
-        <p
-          class="flex flex-col items-center justify-center mx-4 lg:mx-10 text-center"
-        >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum.
-        </p>
-      </div>
-      <div class="lg:grid grid-cols-2 mx-10 lg:mx-32">
-        <div class="my-24">
+
+      <!-- Second Table -->
+      <div class="grid lg:grid-cols-2 gap-4 mx-10 lg:mx-32">
+        <div>
           <h2
             class="text-5xl font-bold flex flex-col items-center justify-center p-8 text-center"
           >
@@ -235,83 +261,74 @@
             reprehenderit.
           </p>
         </div>
-        <div class="my-20 mx-10 lg:mx-32 lg:grid grid-cols-1">
-          <div class="mb-10">
-            <div
-              href="#"
-              class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+
+        <div class="my-20 mx-10 lg:mx-32 grid lg:grid-cols-1 gap-4">
+          <div
+            class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+          >
+            <h5
+              class="flex text-start mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
             >
-              <h5
-                class="flex text-start mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-              >
-                Integrity
-              </h5>
-              <p
-                class="flex text-start font-normal text-gray-700 dark:text-gray-400"
-              >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore
-              </p>
-            </div>
+              Integrity
+            </h5>
+            <p
+              class="flex text-start font-normal text-gray-700 dark:text-gray-400"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore
+            </p>
           </div>
-          <div class="mb-10">
-            <div
-              href="#"
-              class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+          <div
+            class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+          >
+            <h5
+              class="flex text-start mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
             >
-              <h5
-                class="flex text-start mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-              >
-                Privacy
-              </h5>
-              <p
-                class="flex text-start font-normal text-gray-700 dark:text-gray-400"
-              >
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam
-              </p>
-            </div>
+              Privacy
+            </h5>
+            <p
+              class="flex text-start font-normal text-gray-700 dark:text-gray-400"
+            >
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem
+            </p>
           </div>
-          <div class="mb-10">
-            <div
-              href="#"
-              class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+          <div
+            class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+          >
+            <h5
+              class="flex text-start mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
             >
-              <h5
-                class="flex text-start mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-              >
-                Customer Support
-              </h5>
-              <p
-                class="flex text-start font-normal text-gray-700 dark:text-gray-400"
-              >
-                Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                corporis suscipit laboriosam, nisi ut aliquid
-              </p>
-            </div>
+              Customer Support
+            </h5>
+            <p
+              class="flex text-start font-normal text-gray-700 dark:text-gray-400"
+            >
+              Ut enim ad minima veniam, quis nostrum exercitationem ullam
+              corporis suscipit laboriosam, nisi ut aliquid
+            </p>
           </div>
-          <div class="mb-10">
-            <div
-              href="#"
-              class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+          <div
+            class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+          >
+            <h5
+              class="flex text-start mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
             >
-              <h5
-                class="flex text-start mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-              >
-                Authenticity
-              </h5>
-              <p
-                class="flex text-start font-normal text-gray-700 dark:text-gray-400"
-              >
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti
-              </p>
-            </div>
+              Authenticity
+            </h5>
+            <p
+              class="flex text-start font-normal text-gray-700 dark:text-gray-400"
+            >
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti
+            </p>
           </div>
         </div>
       </div>
+
+      <!-- Third Table -->
       <div class="mx-10 lg:mx-32">
-        <div class="my-24">
+        <div class="mt-24">
           <h2
             class="text-5xl font-bold flex flex-col items-center justify-center p-8 text-center"
           >
@@ -325,8 +342,9 @@
             ad minim veniam, quis nostrud exercitation
           </p>
         </div>
-        <div class="lg:grid grid-cols-4 gap-4">
-          <div class="my-16">
+
+        <div class="mt-10 grid lg:grid-cols-4 gap-10">
+          <div>
             <div class="flex justify-center items-center mb-4">
               <img
                 src="assets/images/member4.jpg"
@@ -339,7 +357,7 @@
             </p>
             <p class="flex justify-center items-center">Founder & Ceo</p>
           </div>
-          <div class="my-16">
+          <div>
             <div class="flex justify-center items-center mb-4">
               <img
                 src="assets/images/member2.jpg"
@@ -352,7 +370,7 @@
             </p>
             <p class="flex justify-center items-center">CTO</p>
           </div>
-          <div class="my-16">
+          <div>
             <div class="flex justify-center items-center mb-4">
               <img
                 src="assets/images/member1.jpg"
@@ -365,7 +383,7 @@
             </p>
             <p class="flex justify-center items-center">Co-Founder</p>
           </div>
-          <div class="my-16">
+          <div>
             <div class="flex justify-center items-center mb-4">
               <img
                 src="assets/images/member7.jpg"
@@ -378,7 +396,7 @@
             </p>
             <p class="flex justify-center items-center">Product Manager</p>
           </div>
-          <div class="my-16">
+          <div>
             <div class="flex justify-center items-center mb-4">
               <img
                 src="assets/images/member3.jpg"
@@ -391,7 +409,7 @@
             </p>
             <p class="flex justify-center items-center">HR Manager</p>
           </div>
-          <div class="my-16">
+          <div>
             <div class="flex justify-center items-center mb-4">
               <img
                 src="assets/images/member8.jpg"
@@ -404,7 +422,7 @@
             </p>
             <p class="flex justify-center items-center">Marketing Manager</p>
           </div>
-          <div class="my-16">
+          <div>
             <div class="flex justify-center items-center mb-4">
               <img
                 src="assets/images/member6.jpg"
@@ -419,7 +437,7 @@
               Quality Assurance Manager
             </p>
           </div>
-          <div class="my-16">
+          <div>
             <div class="flex justify-center items-center mb-4">
               <img
                 src="assets/images/member5.jpg"
@@ -433,10 +451,12 @@
         </div>
       </div>
     </div>
-    <div class="bg-emerald-500 my-24 p-10">
+
+    <!-- First Banner -->
+    <div class="bg-emerald-500 my-40 md:p-20 p-10 rounded-3xl shadow-2xl">
       <div class="mx-10 lg:mx-32">
         <h2
-          class="text-5xl font-semibold flex flex-col items-center justify-center p-8 text-start mx-10"
+          class="md:text-5xl text-lg font-semibold flex flex-col items-center justify-center p-8 text-start mx-10"
         >
           WorkFlowPro is the most efficient automation software for businesses
           to streamline their processes without any hassle. All of our
@@ -444,40 +464,43 @@
         </h2>
         <div class="flex p-8 mx-10">
           <div>
-            <img src="assets/images/testimonial.png" alt="" />
+            <img src="assets/images/testimonial.png" class="" alt="" />
           </div>
-          <div class="m-6">
-            <p class="text-xl font-semibold">William Anderson</p>
-            <p class="text-md">CEO at Star Track</p>
+          <div class="mt-6 ml-6">
+            <p class="md:text-xl text-sm font-semibold">William Anderson</p>
+            <p class="md:text-md text-sm">CEO at Star Track</p>
           </div>
         </div>
       </div>
     </div>
-    <div class="container mx-auto">
-      <h2
-        class="text-5xl font-bold flex flex-col items-center justify-center p-8 mt-14 text-center"
-      >
-        Try our 7-days free trial today
-      </h2>
-      <p
-        class="flex flex-col items-center justify-center mx-10 mb-10 lg:mx-32 text-center"
-      >
-        Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.
-        Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla,
-        mattis
-      </p>
 
-      <div
-        class="flex flex-col items-center justify-center py-10 mb-20 rounded-xl"
-      >
-        <button
-          class="bg-transparent hover:bg-emerald-500 text-emerald-700 font-semibold hover:text-white py-2 px-4 border border-emerald-500 hover:border-transparent rounded-3xl transition"
+    <!-- Third Section -->
+    <div class="container mx-auto">
+      <div class="my-40">
+        <h2
+          class="text-5xl font-bold flex flex-col items-center justify-center p-8 mt-14 text-center"
         >
-          Start Free Trial
-        </button>
+          Try our 7-days free trial today
+        </h2>
+        <p
+          class="flex flex-col items-center justify-center mx-10 mb-10 lg:mx-32 text-center"
+        >
+          Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.
+          Aliquam in hendrerit urna.<span>
+            Pellentesque sit amet sapien fringilla, mattis</span
+          >
+        </p>
+        <div class="flex flex-col items-center justify-center mb-20 rounded-xl">
+          <button
+            class="bg-transparent hover:bg-emerald-500 text-emerald-700 font-semibold hover:text-white py-2 px-4 border border-emerald-500 hover:border-transparent rounded-3xl transition"
+          >
+            Start Free Trial
+          </button>
+        </div>
       </div>
     </div>
 
+    <!-- Footer -->
     <div class="flex flex-col justify-center text-center">
       <footer class="bg-gradient-to-r from-emerald-300 to-emerald-600">
         <div class="mx-auto w-full max-w-screen-xl">
@@ -550,20 +573,18 @@
               >
                 Pages
               </h2>
-              <ul
-                class="text-gray-700 dark:text-gray-800 hover:text-emerald-400 font-medium"
-              >
+              <ul class="text-gray-700 dark:text-gray-800 font-medium">
                 <li class="mb-4">
-                  <a href="#">Features</a>
+                  <a href="./features.html">Features</a>
                 </li>
                 <li class="mb-4">
-                  <a href="#">About</a>
+                  <a href="./about.html">About</a>
                 </li>
                 <li class="mb-4">
-                  <a href="#">Pricing</a>
+                  <a href="./pricing.html">Pricing</a>
                 </li>
                 <li class="mb-4">
-                  <a href="#">Contact</a>
+                  <a href="./contact.html">Contact</a>
                 </li>
               </ul>
             </div>
