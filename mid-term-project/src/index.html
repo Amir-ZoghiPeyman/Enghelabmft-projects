@@ -14,6 +14,12 @@
       rel="stylesheet"
     />
 
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css"
+    />
+
     <!-- Main CSS -->
     <link href="assets/css/output.css" rel="stylesheet" />
 
@@ -184,7 +190,7 @@
         <div class="flex flex-col items-center justify-center p-8 lg:order-1">
           <img src="assets/images/Group-2289-1.png" alt="" />
         </div>
-        <div>
+        <div class="my-10">
           <div>
             <h2 class="text-5xl font-bold flex text-start mt-10">
               Automate all of business operations
@@ -196,11 +202,20 @@
             </p>
           </div>
           <div>
-            <span class="flex my-6">Integrate all business departments</span>
+            <div class="flex items-center">
+              <i class="ri-building-fill text-2xl text-emerald-500 mr-6"></i>
+              <span>Integrate all business departments</span>
+            </div>
             <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
-            <span class="flex my-6">Connect to third-party apps</span>
+            <div class="flex items-center">
+              <i class="ri-links-line text-2xl text-emerald-500 mr-6"></i>
+              <span>Connect to third-party apps</span>
+            </div>
             <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
-            <span class="flex mt-6 mb-20">One interface to monitor all</span>
+            <div class="flex items-center">
+              <i class="ri-progress-3-fill text-2xl text-emerald-500 mr-6"></i>
+              <span>One interface to monitor all</span>
+            </div>
           </div>
         </div>
       </div>
@@ -208,10 +223,14 @@
 
     <!-- First Banner -->
     <div
-      class="flex flex-col items-center justify-center rounded-3xl shadow-2xl bg-gradient-to-r from-emerald-300 to-emerald-600"
+      class="flex flex-col items-center justify-center lg:grid grid-cols-2 lg:p-10 rounded-3xl shadow-2xl bg-gradient-to-r from-emerald-300 to-emerald-600"
     >
-      <img src="assets/images/Browser-Desktop.png" class="mt-16" alt="" />
-      <div class="mx-10 lg:mx-52">
+      <img
+        src="assets/images/Browser-Desktop.png"
+        class="mt-16 lg:m-20"
+        alt=""
+      />
+      <div class="mx-10">
         <h2
           class="text-5xl font-bold flex flex-col items-center justify-center p-8 mt-8 text-center"
         >
@@ -258,8 +277,13 @@
 
         <div class="my-20 mx-10 lg:mx-40 grid lg:grid-cols-3 gap-4">
           <div
-            class="block w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+            class="block w-full p-6 bg-white border border-gray-200 rounded-3xl shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
           >
+            <div class="flex flex-col justify-center text-center">
+              <i
+                class="ri-account-circle-fill bg-gray-200 text-9xl rounded-3xl shadow-xl mb-6 w-full py-10"
+              ></i>
+            </div>
             <h5
               class="flex text-start mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
             >
@@ -272,8 +296,13 @@
             </p>
           </div>
           <div
-            class="block w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+            class="block w-full p-6 bg-white border border-gray-200 rounded-3xl shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
           >
+            <div class="flex flex-col justify-center text-center">
+              <i
+                class="ri-link bg-gray-200 text-9xl rounded-3xl shadow-xl mb-6 w-full py-10"
+              ></i>
+            </div>
             <h5
               class="flex text-start mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
             >
@@ -286,8 +315,13 @@
             </p>
           </div>
           <div
-            class="block w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+            class="block w-full p-6 bg-white border border-gray-200 rounded-3xl shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
           >
+            <div class="flex flex-col justify-center text-center">
+              <i
+                class="ri-computer-fill bg-gray-200 text-9xl rounded-3xl shadow-xl mb-6 w-full py-10"
+              ></i>
+            </div>
             <h5
               class="flex text-start mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
             >
@@ -450,7 +484,9 @@
     </div>
 
     <!-- Second Banner -->
-    <div class="bg-gradient-to-r from-emerald-300 to-emerald-600">
+    <div
+      class="rounded-3xl shadow-2xl bg-gradient-to-r from-emerald-300 to-emerald-600"
+    >
       <div class="mx-10 lg:mx-40 p-6">
         <h2
           class="text-5xl font-bold flex flex-col items-center justify-center p-8 mt-14 text-center"
@@ -466,21 +502,27 @@
         </p>
         <div class="lg:grid grid-cols-2 container mx-auto">
           <div>
-            <h3
-              class="text-3xl font-semibold flex flex-col items-start justify-center text-start"
-            >
-              250+
-            </h3>
+            <div class="flex text-center">
+              <i class="ri-arrow-right-s-line text-4xl"></i>
+              <h3
+                class="text-3xl font-semibold flex flex-col items-start justify-center text-start"
+              >
+                250+
+              </h3>
+            </div>
             <p class="flex flex-col items-start justify-center text-start mb-8">
               Ut enim ad minima veniam, quis nostrum exercitationem ullam
             </p>
           </div>
           <div>
-            <h3
-              class="text-3xl font-semibold flex flex-col items-start justify-center text-start"
-            >
-              90%
-            </h3>
+            <div class="flex text-center">
+              <i class="ri-arrow-right-s-line text-4xl"></i>
+              <h3
+                class="text-3xl font-semibold flex flex-col items-start justify-center text-start"
+              >
+                90%
+              </h3>
+            </div>
             <p
               class="flex flex-col items-start justify-center text-start mb-12"
             >
@@ -489,26 +531,33 @@
             </p>
           </div>
           <div>
-            <h3
-              class="text-3xl font-semibold flex flex-col items-start justify-center text-start"
-            >
-              1.5M+
-            </h3>
+            <div class="flex text-center">
+              <i class="ri-arrow-right-s-line text-4xl"></i>
+              <h3
+                class="text-3xl font-semibold flex flex-col items-start justify-center text-start"
+              >
+                1.5M+
+              </h3>
+            </div>
             <p class="flex flex-col items-start justify-center text-start mb-8">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Mollitia, optio!
             </p>
           </div>
           <div>
-            <h3
-              class="text-3xl font-semibold flex flex-col items-start justify-center text-start"
-            >
-              20+
-            </h3>
+            <div class="flex text-center">
+              <i class="ri-arrow-right-s-line text-4xl"></i>
+              <h3
+                class="text-3xl font-semibold flex flex-col items-start justify-center text-start"
+              >
+                20+
+              </h3>
+            </div>
             <p
-              class="flex flex-col items-start justify-center text-start mb-12"
+              class="flex flex-col items-start justify-center text-start mb-20"
             >
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum elit.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
+              elit.
             </p>
           </div>
         </div>
