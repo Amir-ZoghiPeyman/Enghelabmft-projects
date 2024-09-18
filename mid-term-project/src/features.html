@@ -14,6 +14,12 @@
       rel="stylesheet"
     />
 
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css"
+    />
+
     <!-- Main CSS -->
     <link href="assets/css/output.css" rel="stylesheet" />
 
@@ -158,11 +164,13 @@
           </div>
 
           <!-- Second Section -->
-          <div class="lg:flex lg:my-40 mx-10 lg:mx-32">
-            <div class="flex items-center justify-center p-6 lg:order-1">
+          <div class="lg:flex lg:my-20 mx-10 lg:mx-32">
+            <div
+              class="flex flex-col items-center justify-center p-8 lg:order-1"
+            >
               <img src="assets/images/Group-2289-1.png" alt="" />
             </div>
-            <div>
+            <div class="my-10">
               <div>
                 <h2 class="text-5xl font-bold flex text-start mt-10">
                   Automate all of business operations
@@ -173,14 +181,25 @@
                   sapien fringilla, mattis ligula consectetur.
                 </p>
               </div>
-              <div>
-                <span class="flex my-6"
-                  >Integrate all business departments</span
-                >
+              <div class="mb-32 lg:mb-10">
+                <div class="flex items-center">
+                  <i
+                    class="ri-building-fill text-2xl text-emerald-500 mr-6"
+                  ></i>
+                  <span>Integrate all business departments</span>
+                </div>
                 <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
-                <span class="flex my-6">Connect to third-party apps</span>
+                <div class="flex items-center">
+                  <i class="ri-links-line text-2xl text-emerald-500 mr-6"></i>
+                  <span>Connect to third-party apps</span>
+                </div>
                 <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
-                <span class="flex mt-6">One interface to monitor all</span>
+                <div class="flex items-center">
+                  <i
+                    class="ri-progress-3-fill text-2xl text-emerald-500 mr-6"
+                  ></i>
+                  <span>One interface to monitor all</span>
+                </div>
               </div>
             </div>
           </div>
@@ -205,20 +224,33 @@
               </p>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
 
-          <!-- First Table -->
-          <div class="flex flex-col items-center justify-center mx-10 lg:mx-52">
-            <h2 class="text-5xl font-bold p-8">Features</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa
-              mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
-              fringilla, mattis ligula consectetur.
-            </p>
-          </div>
-          <div class="my-20 mx-10 lg:mx-32 grid lg:grid-cols-3 gap-4">
-            <div
-              class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-            >
+    <!-- First Table -->
+    <div
+      class="bg-gradient-to-b from-white via-gray-200 to-white py-4 rounded-3xl"
+    >
+      <div class="container mx-auto">
+        <div class="flex flex-col text-center items-center justify-center mx-10 lg:mx-52">
+          <h2 class="text-5xl font-bold p-8">Features</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa
+            mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
+            fringilla, mattis ligula consectetur.
+          </p>
+        </div>
+        <div class="my-20 mx-10 lg:mx-48 grid lg:grid-cols-3 gap-4">
+          <div
+            class="flex w-full h-full p-6 bg-white border border-gray-200 rounded-3xl shadow-2xl hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 transition-all"
+          >
+            <div class="flex items-center">
+              <i
+                class="ri-git-commit-fill bg-gray-200 text-5xl rounded-3xl shadow-xl mr-6 p-4"
+              ></i>
+            </div>
+            <div>
               <h5
                 class="flex text-start mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
@@ -227,12 +259,19 @@
               <p
                 class="flex text-start font-normal text-gray-700 dark:text-gray-400"
               >
-                Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                Ut enim ad minima veniam, quis nostrum
               </p>
             </div>
-            <div
-              class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-            >
+          </div>
+          <div
+            class="flex w-full h-full p-6 bg-white border border-gray-200 rounded-3xl shadow-2xl hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 transition-all"
+          >
+            <div class="flex items-center">
+              <i
+                class="ri-drag-drop-fill bg-gray-200 text-5xl rounded-3xl shadow-xl mr-6 p-4"
+              ></i>
+            </div>
+            <div>
               <h5
                 class="flex text-start mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
@@ -244,9 +283,16 @@
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               </p>
             </div>
-            <div
-              class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-            >
+          </div>
+          <div
+            class="flex w-full h-full p-6 bg-white border border-gray-200 rounded-3xl shadow-2xl hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 transition-all"
+          >
+            <div class="flex items-center">
+              <i
+                class="ri-puzzle-2-fill bg-gray-200 text-5xl rounded-3xl shadow-xl mr-6 p-4"
+              ></i>
+            </div>
+            <div>
               <h5
                 class="flex text-start mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
@@ -255,12 +301,19 @@
               <p
                 class="flex text-start font-normal text-gray-700 dark:text-gray-400"
               >
-                Lorem ipsum dolor sit amet consectetur
+                Lorem ipsum dolor sit amet consectetur lorem.
               </p>
             </div>
-            <div
-              class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-            >
+          </div>
+          <div
+            class="flex w-full h-full p-6 bg-white border border-gray-200 rounded-3xl shadow-2xl hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 transition-all"
+          >
+            <div class="flex items-center">
+              <i
+                class="ri-expand-diagonal-s-fill bg-gray-200 text-5xl rounded-3xl shadow-xl mr-6 p-4"
+              ></i>
+            </div>
+            <div>
               <h5
                 class="flex text-start mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
@@ -269,12 +322,19 @@
               <p
                 class="flex text-start font-normal text-gray-700 dark:text-gray-400"
               >
-                Lorem ipsum dolor sit amet consectetur adipiscing
+                Lorem ipsum dolor sit amet consectetur adipiscing dolor sit
               </p>
             </div>
-            <div
-              class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-            >
+          </div>
+          <div
+            class="flex w-full h-full p-6 bg-white border border-gray-200 rounded-3xl shadow-2xl hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 transition-all"
+          >
+            <div class="flex items-center">
+              <i
+                class="ri-git-repository-private-fill bg-gray-200 text-5xl rounded-3xl shadow-xl mr-6 p-4"
+              ></i>
+            </div>
+            <div>
               <h5
                 class="flex text-start mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
@@ -286,9 +346,16 @@
                 At vero eos et accusamus et iusto odio dignissimos ducim
               </p>
             </div>
-            <div
-              class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-            >
+          </div>
+          <div
+            class="flex w-full h-full p-6 bg-white border border-gray-200 rounded-3xl shadow-2xl hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 transition-all"
+          >
+            <div class="flex items-center">
+              <i
+                class="ri-cursor-fill bg-gray-200 text-5xl rounded-3xl shadow-xl mr-6 p-4"
+              ></i>
+            </div>
+            <div>
               <h5
                 class="flex text-start mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
@@ -300,9 +367,16 @@
                 Ut enim ad minima veniam, quis nostrum exercitationem ullam
               </p>
             </div>
-            <div
-              class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-            >
+          </div>
+          <div
+            class="flex w-full h-full p-6 bg-white border border-gray-200 rounded-3xl shadow-2xl hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 transition-all"
+          >
+            <div class="flex items-center">
+              <i
+                class="ri-shield-keyhole-fill bg-gray-200 text-5xl rounded-3xl shadow-xl mr-6 p-4"
+              ></i>
+            </div>
+            <div>
               <h5
                 class="flex text-start mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
@@ -311,12 +385,19 @@
               <p
                 class="flex text-start font-normal text-gray-700 dark:text-gray-400"
               >
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                Sed ut perspiciatis unde omnis iste natus error
               </p>
             </div>
-            <div
-              class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-            >
+          </div>
+          <div
+            class="flex w-full h-full p-6 bg-white border border-gray-200 rounded-3xl shadow-2xl hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 transition-all"
+          >
+            <div class="flex items-center">
+              <i
+                class="ri-customer-service-2-fill bg-gray-200 text-5xl rounded-3xl shadow-xl mr-6 p-4"
+              ></i>
+            </div>
+            <div>
               <h5
                 class="flex text-start mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
@@ -325,12 +406,19 @@
               <p
                 class="flex text-start font-normal text-gray-700 dark:text-gray-400"
               >
-                Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                Ut enim ad minima veniam, quis nostrum
               </p>
             </div>
-            <div
-              class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-            >
+          </div>
+          <div
+            class="flex w-full h-full p-6 bg-white border border-gray-200 rounded-3xl shadow-2xl hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 transition-all"
+          >
+            <div class="flex items-center">
+              <i
+                class="ri-team-fill bg-gray-200 text-5xl rounded-3xl shadow-xl mr-6 p-4"
+              ></i>
+            </div>
+            <div>
               <h5
                 class="flex text-start mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
@@ -343,49 +431,32 @@
               </p>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
 
-          <!-- Fourth Setion -->
-          <div
-            class="flex flex-col items-center justify-center mx-10 my-40 lg:mx-52"
+    <!-- Fifth Section -->
+    <div class="container mx-auto">
+      <div class="my-40">
+        <h2
+          class="text-5xl font-bold flex flex-col items-center justify-center p-8 mt-14 text-center"
+        >
+          Try our 7-days free trial today
+        </h2>
+        <p
+          class="flex flex-col items-center justify-center mx-10 mb-10 lg:mx-32 text-center"
+        >
+          Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.
+          Aliquam in hendrerit urna.<span>
+            Pellentesque sit amet sapien fringilla, mattis</span
           >
-            <h2 class="text-5xl font-bold p-8">
-              Accessible through all devices
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa
-              mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
-              fringilla, mattis ligula consectetur..
-            </p>
-            <div class="my-10">
-              <img src="assets/images/Group-2290.png" alt="" />
-            </div>
-          </div>
-
-          <!-- Fifth Section -->
-          <div class="my-40">
-            <h2
-              class="text-5xl font-bold flex flex-col items-center justify-center p-8 mt-14 text-center"
-            >
-              Try our 7-days free trial today
-            </h2>
-            <p
-              class="flex flex-col items-center justify-center mx-10 mb-10 lg:mx-32 text-center"
-            >
-              Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa
-              mi. Aliquam in hendrerit urna.<span>
-                Pellentesque sit amet sapien fringilla, mattis</span
-              >
-            </p>
-            <div
-              class="flex flex-col items-center justify-center mb-20 rounded-xl"
-            >
-              <button
-                class="bg-transparent hover:bg-emerald-500 text-emerald-700 font-semibold hover:text-white py-2 px-4 border border-emerald-500 hover:border-transparent rounded-3xl transition"
-              >
-                Start Free Trial
-              </button>
-            </div>
-          </div>
+        </p>
+        <div class="flex flex-col items-center justify-center mb-20 rounded-xl">
+          <button
+            class="bg-transparent hover:bg-emerald-500 text-emerald-700 font-semibold hover:text-white py-2 px-4 border border-emerald-500 hover:border-transparent rounded-3xl transition"
+          >
+            Start Free Trial
+          </button>
         </div>
       </div>
     </div>
