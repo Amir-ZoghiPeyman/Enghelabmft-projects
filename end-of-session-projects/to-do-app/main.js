@@ -42,7 +42,7 @@ function render() {
       return `
         <li>
             <input id="editInput" type="text" value="${todo.text}">
-            <i class="fa-solid fa-check" onclick="submitEdit(${todo.id})"></i>
+            <i class="ri-corner-down-left-fill onclick="submitEdit(${todo.id})"></i>
         </li>
     `;
     }
@@ -50,8 +50,8 @@ function render() {
     return `
             <li>
                 ${todo.text}
-                <i class="fa-solid fa-trash" onclick="deleteTodo(${todo.id})"></i>
-                <i class="fa-solid fa-pen-to-square" onclick="editTodo(${todo.id})"></i>
+                <i class="ri-delete-bin-fill" onclick="deleteTodo(${todo.id})"></i>
+                <i class="ri-pencil-fill" onclick="editTodo(${todo.id})"></i>
             </li>
         `;
   }).join("");
