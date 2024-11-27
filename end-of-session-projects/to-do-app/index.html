@@ -9,13 +9,33 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <script src="main.js" defer></script>
   </head>
-  <body>
-    <input id="input" type="text" />
-    <button id="add-btn" onclick="addTodo()">ADD</button>
-
-    <ul id="root"></ul>
+  <body class="container mx-auto max-w-md font-custom">
+    <div
+      class="bg-slate-500 rounded-2xl py-10 flex flex-col items-center gap-8 my-32"
+    >
+      <div>
+        <h2 class="flex justify-center mb-10 text-4xl font-bold">
+          | TO DO LIST |
+        </h2>
+        <input class="bg-slate-200 rounded-md px-2" id="input" type="text" />
+        <button
+          class="bg-green-500 rounded-md font-bold px-2"
+          id="add-btn"
+          onclick="addTodo()"
+        >
+          ADD
+        </button>
+      </div>
+      <ul id="root" class="flex flex-col gap-2"></ul>
+    </div>
   </body>
 </html>

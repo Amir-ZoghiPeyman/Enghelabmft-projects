@@ -40,19 +40,23 @@ function render() {
   const template = TODOS.map((todo) => {
     if (todo.id === editableItemId) {
       return `
+      <div>
         <li>
-            <input id="editInput" type="text" value="${todo.text}">
-            <i class="ri-corner-down-left-fill onclick="submitEdit(${todo.id})"></i>
+            <input class="bg-slate-100 rounded-md px-2" id="editInput" type="text" value="${todo.text}">
+            <i class="ri-corner-down-left-fill text-xl bg-green-200 rounded-3xl p-1" onclick="submitEdit(${todo.id})"></i>
         </li>
+      </div>
     `;
     }
 
     return `
+        <div class="flex flex-col items-end">
             <li>
-                ${todo.text}
-                <i class="ri-delete-bin-fill" onclick="deleteTodo(${todo.id})"></i>
-                <i class="ri-pencil-fill" onclick="editTodo(${todo.id})"></i>
+                <span class="bg-white rounded-3xl font-bold w-10 px-6 p-1">${todo.text}</span>
+                <i class="ri-delete-bin-fill text-xl bg-red-400 rounded-3xl p-1" onclick="deleteTodo(${todo.id})"></i>
+                <i class="ri-pencil-fill text-xl bg-blue-400 rounded-3xl p-1" onclick="editTodo(${todo.id})"></i>
             </li>
+        </div>
         `;
   }).join("");
 
