@@ -1,0 +1,20 @@
+#container {
+  height: 100vh;
+}
+
+.hidden-content i {
+  display: none;
+}
+
+.matched {
+  background-color: green;
+  pointer-events: none;
+}
+
+.unmatched {
+  background-color: red;
+}
+
+.freeze {
+  pointer-events: none;
+}
