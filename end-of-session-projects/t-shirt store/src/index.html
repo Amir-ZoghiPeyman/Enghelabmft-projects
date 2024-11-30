@@ -15,7 +15,7 @@
     />
 
     <!-- MAIN JS -->
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/main.js" defer></script>
   </head>
 
   <body>
@@ -48,8 +48,14 @@
       <p class="text-lg">Summer Collection</p>
       <h2 class="text-6xl font-bold my-6">Popular T-Shirts</h2>
 
-      <div id="main-page-products"></div>
-      <button class="bg-black text-white rounded-3xl p-4 my-10">See More</button>
+      <div
+        id="main-page-products"
+        class="mt-10 grid lg:grid-cols-4 gap-10"
+      ></div>
+
+      <button class="bg-black text-white rounded-3xl p-4 my-10">
+        See More
+      </button>
     </div>
 
     <!-- FOOTER -->
