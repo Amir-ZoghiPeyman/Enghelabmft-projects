@@ -4,36 +4,26 @@ const btn = document.getElementById("add-btn");
 const root = document.getElementById("root");
 
 let editableItemId = null;
-
-let TODOS = [
-  {
-    id: 0,
-    text: "running",
-    isDone: false,
-  },
-  {
-    id: 1,
-    text: "shopping",
-    isDone: false,
-  },
-];
+let TODOS = [];
 
 function addTodo() {
-  debugger;
   const inputVal = input.value;
-  const newId = Math.floor(Math.random() * 1000000000000);
 
-  const newTodo = {
-    id: newId,
-    text: inputVal,
-    isDone: false,
-  };
+  if (inputVal) {
+    const newId = Math.floor(Math.random() * 1000000000000);
 
-  TODOS.push(newTodo);
+    const newTodo = {
+      id: newId,
+      text: inputVal,
+      isDone: false,
+    };
 
-  input.value = "";
+    TODOS.push(newTodo);
 
-  render();
+    input.value = "";
+
+    render();
+  }
 }
 
 function render() {
@@ -50,15 +40,23 @@ function render() {
     }
 
     return `
-        <div class="flex flex-col items-end">
-            <li>
-                <span class="bg-white rounded-3xl font-bold w-10 px-6 p-1">${todo.text}</span>
-                <i class="ri-delete-bin-fill text-xl bg-red-400 rounded-3xl p-1" onclick="deleteTodo(${todo.id})"></i>
-                <i class="ri-pencil-fill text-xl bg-blue-400 rounded-3xl p-1" onclick="editTodo(${todo.id})"></i>
-            </li>
-        </div>
-        `;
-  }).join("");
+    <div class="flex flex-col items-end">
+      <li>
+        <span class="bg-white flex-1 rounded-3xl font-bold w-10 px-6 p-1"
+          >${todo.text}</span
+        >
+        <i
+          class="ri-delete-bin-fill text-xl bg-red-400 rounded-3xl p-1"
+          onclick="deleteTodo(${todo.id})"
+        ></i>
+        <i
+          class="ri-pencil-fill text-xl bg-blue-400 rounded-3xl p-1"
+          onclick="editTodo(${todo.id})"
+        ></i>
+      </li>
+    </div>
+    `; }).join("");
+    
 
   root.innerHTML = template;
 }
