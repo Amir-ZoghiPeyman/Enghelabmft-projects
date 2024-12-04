@@ -17,8 +17,8 @@ async function renderMainPageProducts() {
 
       return `
       <div>
-          <div class="flex justify-center items-center mb-4">
-            <img src="${image}" class="rounded-2xl shadow-2xl" alt="" />
+          <div class="flex flex-col justify-center items-center mb-4 w-full overflow-hidden">
+            <img src="${image}" width="400px" class="rounded-2xl shadow-2xl w-full aspect-square object-cover" alt="" />
           </div>
           <p class="flex justify-center items-center font-bold">${title}</p>
           <p class="flex justify-center items-center">${price}</p>
