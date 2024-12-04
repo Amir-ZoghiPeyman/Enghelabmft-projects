@@ -6,12 +6,12 @@
   display: none;
 }
 
-.matched {
+.matched i {
   background-color: green;
   pointer-events: none;
 }
 
-.unmatched {
+.unmatched i {
   background-color: red;
 }
 
