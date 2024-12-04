@@ -6,11 +6,22 @@
     <title>Library</title>
 
     <!-- MAIN CSS -->
-    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="assets/css/output.css" />
 
     <!-- MAIN JS -->
-    <script src="main.js"></script>
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/Books.js" defer></script>
   </head>
 
-  <body></body>
+  <body>
+    <header id="header">
+      <button id="favBtn">علاقه مندی ها</button>
+      <div class="fav hidden"></div>
+    </header>
+
+    <div class="container">
+      <div id="root"></div>
+      <div id="filter"></div>
+    </div>
+  </body>
 </html>
